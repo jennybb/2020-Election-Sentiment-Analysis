@@ -1,1 +1,8 @@
 # 2020-Election-Sentiment-Analysis
+
+Social media has played an integral role in presidential elections since 2016; with the advent of Cambridge Analytica and nuanced psycho-political campaigning tactics. Twitter can be seen as a platform for candidates and users to gain substantial outreach in order to showcase their views to the world. Thus it is important to analyze and understand the role Twitter can play in gauging sentiment surrounding hot button issues that voters use in deciding which candidate is fit for leading the United States for the next four to eight years. 
+  
+The aim of this project was to perform sentiment analysis on tweets pertaining to the 2020 US Presidential election for candidates Joe Biden and Donald Trump. The objective was to unearth contrasting information in a one week period before and after the election results were announced. This project used Principal Component Analysis (PCA) and KMeans clustering to analyze the presence of polarity or communities in the dataset. Furthermore, a hashtag distribution analysis was conducted on our clusters to validate and inspect user sentiment. Logistic Regression and Random Forest Classification were built to generate the top words, in terms of feature importance, responsible for predicting tweet sentiment and tried to look for any change in the top words between these two time periods. 
+  
+The data was web scraped from Twitter using Tweepy. Before election data consists of 97,200 rows and 7 columns which include: user, id, location, date, favorites count (How many times a tweet has been Favorited), text (tweet content), and a retweet flag which will be either true or false. After election data consists of 45,394 rows.
+
